@@ -11,7 +11,11 @@
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController
+{
+    NSURL *iTunesURL;
+}
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) NSURL *iTunesURL;
 
 @end
